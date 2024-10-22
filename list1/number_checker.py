@@ -8,30 +8,12 @@ def is_even(n: int) -> bool:
 
 def solve_eq(n: int):
     a = 2
-    b = -6 * n
+    b = -5 * n
     c = 100
     d = b**2 - 4*a*c
 
     r1 = (-b + cmath.sqrt(d)) / (2 * a)
     r2 = (-b - cmath.sqrt(d)) / (2 * a)
-
-# Below is to pass tests
-    # if n == 4:
-    #     r1 = 10
-    #     r2 = 20
-    # if n == 2:
-    #     r1 = 25
-    #     r2 = 0
-    # if n == 1:
-    #     r1 = 50
-    #     r2 = 0
-    # if n == 11:
-    #     r1 = 9.09
-    #     r2 = 10.91
-    #
-    # if n in {4, 2, 1, 11}:
-    #     r1 = complex(r1)
-    #     r2 = complex(r2)
 
     return r1, r2
 
