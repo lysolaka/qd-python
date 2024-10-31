@@ -1,8 +1,7 @@
-inp = input()
-t = eval(inp)
+inp = eval(input())
 
 result = 1
-for i in t:
+for i in inp:
     result *= i
 
 print(result)

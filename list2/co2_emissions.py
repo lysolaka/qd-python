@@ -47,7 +47,7 @@ for line in lines:
 
 # Time to use this shit
 
-# 1. Countries and their emissions (pie chart)
+# 1. Countries and their emissions (bar chart)
 # (a) prep work
 countries = list(results.keys())
 countries.append("Others")

@@ -1,6 +1,7 @@
 import random
 
-r_list = [random.randint(-10, 15) for x in range(0, 10)]
+
+r_list = [random.randint(-10, 15) for _ in range(0, 10)]
 
 with open("read_file.txt", "w") as file:
     file.write(str(r_list))
