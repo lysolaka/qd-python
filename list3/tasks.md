@@ -62,7 +62,7 @@ Plot both sets on one figure for comparison.
 Hint – use numpy and matplotlib libraries.
 
 ## Player class (interactive Scrabble calculator)
-Write a program with the same functionality as in List 1 (ADD LINK TODO!). 
+Write a program with the same functionality as in [List 1](https://github.com/lysolaka/qd-python/blob/main/list1/tasks.md#scrabble-score-calculator). 
 It should be realized as a `Player` class, where each player is a separate instance. 
 Inside it stores the score of the player and has a method for calculating 
 the score of a given word. Make a simple text UI.
