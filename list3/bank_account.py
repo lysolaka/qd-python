@@ -25,4 +25,3 @@ class BankAccount:
 
     def check_balance(self) -> float:
         return self.balance
-

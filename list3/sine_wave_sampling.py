@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 class SineSampleGen:
     """
-    A sine sample generator. Instance frequency is constant.
+    A sine sample generator. Instance frequency and amplitude are constant.
     """
 
     def __init__(self, frequency: float, amplitude: float):
@@ -66,4 +66,3 @@ generator = SineSampleGen(freq, ampl)
 sample_rate = float(input("Sample rate [Hz]: "))
 acquisition = float(input("Acquisition time [s]: "))
 generator.sample2plot(sample_rate, acquisition)
-
